@@ -176,15 +176,6 @@ td {
 tr:nth-of-type(odd) {
   background-color: #ffcd6f;
 }
-tr:hover {
-  background-color: #ffe6e6;
-  color: #660000;
-}
-tr {
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
-}
 
 @media (max-width: 32.5rem) {
   body {
@@ -241,7 +232,7 @@ tr {
     width: 100%;
     padding-left: 35%;
     position: relative;
-    text-align-last: left;
+    text-align: left;
   }
   td::before {
     width: 25%;
@@ -252,6 +243,7 @@ tr {
     color: #39c;
     font-weight: bold;
     white-space: nowrap;
+    position: absolute;
   }
 }
 
